@@ -23,6 +23,7 @@ class FizzBuzzTest {
         var result = FizzBuzz.startFizzBuzz(count);
 
         assertThat(result).hasSize(count);
+
     }
 
     @Test
