@@ -15,7 +15,7 @@ public class FizzBuzz {
             return bueno;
         }
         for (int i = 1; i <= count ; i++){
-            if (i % 15 == 0){
+            if (i % 3 == 0 && i % 5 == 0 ){
                 bueno.add("FizzBuzz");
             }
             else if(i % 3 == 0){
